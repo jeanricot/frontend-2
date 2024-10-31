@@ -40,8 +40,8 @@ const inputAge = useRef()
       <form>
         <h1>Cadastro de usuarios</h1>
         <input placeholder="Nome" name="nome" type="text" ref={inputName}/>
-        <input placeholder="Idade" name="idade" type="number" ref={inputEmail}/>
-        <input placeholder="E-mail" name="nome" type="email" ref={inputAge}/>
+        <input placeholder="Idade" name="idade" type="number" ref={inputAge}/>
+        <input placeholder="E-mail" name="nome" type="email" ref={inputEmail}/>
         <button type="button" onClick={criarUsers}>Cadastrar</button>
       </form>
       {users.map((user) => (
